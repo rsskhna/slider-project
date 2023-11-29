@@ -33,6 +33,7 @@
 
     display: flex;
     justify-content: center;
+    z-index: 2;
 
     background-color: #FFF;
     border-radius: 42px;
@@ -58,4 +59,54 @@
 
 .slide-two__text_bold {
     font-family: 'dinpro_bold', Arial, sans-serif;
+}
+
+.slide-two__sperm1-img {
+    width: 100%;
+    max-width: 133px;
+
+    position: absolute;
+    bottom: 171px;
+    right: 0;
+    z-index: 1;
+}
+
+.slide-two__sperm2-img {
+    width: 100%;
+    max-width: 314px;
+
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 1;
+}
+
+.slide-two__sperm3-img {
+    width: 100%;
+    max-width: 135px;
+
+    position: absolute;
+    bottom: 272px;
+    right: 0;
+    z-index: 1;
+}
+
+.slide-two__sperm4-img {
+    width: 100%;
+    max-width: 656px;
+
+    position: absolute;
+    top: 101px;
+    right: 0;
+    z-index: 1;
+}
+
+.slide-two__sperm5-img {
+    width: 100%;
+    max-width: 440px;
+
+    position: absolute;
+    top: 98px;
+    right: 0;
+    z-index: 1;
 }
