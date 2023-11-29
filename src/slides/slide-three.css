@@ -1,0 +1,139 @@
+/*  SLIDE THREE */
+
+.slide-three {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    background-image: url("../images/slide-three/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-block-start: 164px;
+}
+
+.slide-three__bottle-img {
+    width: 100%;
+    max-width: 233px;
+    min-height: 688px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    z-index: 10;
+}
+
+.slide-three__title {
+    width: 100%;
+    max-width: 348px;
+
+    font-family: 'dinpro_light', Arial, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+
+    margin-block-end: 12px;
+    margin-inline-start: 353px;
+}
+
+.slide-three__subtitle {
+    width: 100%;
+    max-width: max-content;
+
+    font-family: 'Gilroy-Regular', Arial, sans-serif;
+    font-size: 96px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+
+    margin-inline-start: 353px;
+    margin-block-end: 60px;
+}
+
+.slide-three__subtitle_bold {
+    font-family: 'Gilroy-ExtraBold', Arial, sans-serif;
+}
+
+.slide-three__windows {
+    width: 100%;
+    max-width: 710px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-inline-start: 234px;
+}
+
+.slide-three__window {
+    width: 100%;
+
+    position: relative;
+
+    background-color: #FFF;
+    border-radius: 40px;
+
+    box-shadow: -33px -27px 50px -13px rgba(31, 126, 169, 0.13),
+    27px 33px 50px -13px rgba(31, 126, 169, 0.13);
+}
+
+.slide-three__window_size_m {
+    max-width: 407px;
+    min-height: 267px;
+
+    padding-block-start: 50px;
+    padding-inline-start: 118px;
+}
+
+.slide-three__window_size_s {
+    max-width: 265px;
+    min-height: 150px;
+
+    padding-block-start: 50px;
+    padding-inline-start: 44px;
+}
+
+.slide-three__window-icon {
+    width: 100%;
+    max-width: 69px;
+
+    position: absolute;
+}
+
+.slide-three__window-icon_type_plates {
+    top: -31px;
+    right: 222px;
+}
+
+.slide-three__window-icon_type_calendar {
+    top: -22px;
+    right: 153px;
+}
+
+.slide-three__text {
+    width: 100%;
+    max-width: 236px;
+
+    font-family: 'dinpro_light', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.slide-three__button {
+    width: 100%;
+    max-width: 263px;
+
+    position: absolute;
+    right: 80px;
+    bottom: 118px;
+
+    display: block;
+}
+
+.slide-three__button-img {
+    width: 100%;
+}
+
+
+
