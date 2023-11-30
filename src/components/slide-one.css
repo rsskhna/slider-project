@@ -1,5 +1,3 @@
-/* SLIDE ONE */
-
 .slide-one {
     display: flex;
     flex-direction: column;
@@ -12,6 +10,8 @@
 
     padding-block-start: 162px;
     padding-inline-start: 66px;
+
+    overflow: hidden;
 }
 
 .slide-one__subtitle {
@@ -74,6 +74,8 @@
     top: 506px;
     left: 24px;
     z-index: 1;
+
+    animation: 20s linear infinite bakti1-move;
 }
 
 .slide-one__bakti2-img {
@@ -84,6 +86,8 @@
     position: absolute;
     top: 60px;
     right: 215px;
+
+    animation: 20s linear infinite bakti2-move;
 }
 
 .slide-one__spike1-img {
@@ -94,6 +98,9 @@
     position: absolute;
     top: 202px;
     right: 53px;
+    z-index: 4;
+
+    animation: 35s linear infinite spike1-move;
 }
 
 .slide-one__spike2-img {
@@ -102,6 +109,87 @@
     min-height: 126px;
 
     position: absolute;
-    bottom: 0;
+    bottom: -96px;
     right: 256px;
+
+    animation: 10s linear infinite spike2-move;
+}
+
+@keyframes bakti1-move {
+    0% {
+        top: 506px;
+        left: 24px;
+    }
+    50% {
+        top: 600px;
+        left: 70px;
+    }
+    100% {
+        top: 506px;
+        left: 24px;
+    }
+}
+
+@keyframes bakti2-move {
+    0% {
+        top: 60px;
+        right: 215px;
+        max-width: 64px;
+    }
+    50% {
+        top: 90px;
+        right: 185px;
+        max-width: 57px;
+    }
+    100% {
+        top: 60px;
+        right: 215px;
+        max-width: 64px;
+    }
+}
+
+@keyframes spike1-move {
+    0% {
+        top: 202px;
+        right: 53px;
+        rotate: 0deg;
+    }
+    25% {
+        top: 80px;
+        right: 115px;
+    }
+    50% {
+        top: 176px;
+        right: 175px;
+    }
+    75% {
+        top: 220px;
+        right: 110px;
+    }
+    100% {
+        top: 202px;
+        right: 53px;
+        rotate: 360deg;
+    }
+}
+
+@keyframes spike2-move {
+    0% {
+        bottom: -96px;
+        right: 256px;
+        max-width: 227px;
+    }
+    33% {
+        max-width: 240px;
+    }
+    66% {
+        bottom: -55px;
+        right: 320px;
+        max-width: 200px;
+    }
+    100% {
+        bottom: -96px;
+        right: 256px;
+        max-width: 227px;
+    }
 }
