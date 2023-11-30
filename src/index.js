@@ -6,7 +6,6 @@ const buttonMore = document.querySelector('.slide-three__button');
 const dots = document.querySelectorAll('.popup__dot');
 const pointLists = document.querySelectorAll('.popup__point-list');
 
-
 buttonMore.addEventListener('click', function () {
     openModal(popup);
 });
@@ -25,4 +24,3 @@ popup.addEventListener('click', function (evt) {
         });
     }
 })
-
