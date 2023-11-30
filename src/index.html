@@ -15,7 +15,7 @@
         </a>
     </header>
 
-    <main class="content" dir="ltr">
+    <main class="content">
         <section class="content__slide slide-one" id="homepage">
             <p class="slide-one__subtitle">привет,</p>
             <h1 class="slide-one__title">
@@ -33,23 +33,34 @@
 
         <section class="content__slide slide-two" id="slide-two">
             <h2 class="slide-two__title">текст сообщения</h2>
+
             <div class="slide-two__text-area">
                 <p class="slide-two__text">
                     <span class="slide-two__text_bold">Lorem ipsum dolor sit amet</span>, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis
+                    egestas
                     pretium aenean. Sem nulla pharetra diam sit amet. Erat pellentesque adipiscing commodo elit at imperdiet
-                    dui accumsan. Vel facilisis volutpat est velit egestas dui id ornare. Morbi tristique senectus et netus et.
+                    dui accumsan. Vel facilisis volutpat est velit egestas dui id ornare. Morbi tristique senectus et netus
+                    et.
                     Ipsum consequat nisl vel pretium. Elit ut aliquam purus sit amet luctus venenatis lectus. Dis parturient
-                    montes nascetur ridiculus mus mauris. Ut pharetra sit amet aliquam. Habitant morbi tristique senectus et netus et.
-                    Sit amet risus nullam eget felis eget. Nibh tortor id aliquet lectus.Quam lacus suspendisse faucibus interdum posuere
-                    lorem ipsum dolor. Nec ultrices dui sapien eget mi. Mi eget mauris pharetra et ultrices neque ornare. Ullamcorper
-                    sit amet risus nullam eget felis. Pharetra massa massa ultricies mi quis. Urna et pharetra pharetra massa
+                    montes nascetur ridiculus mus mauris. Ut pharetra sit amet aliquam. Habitant morbi tristique senectus et
+                    netus et.
+                    Sit amet risus nullam eget felis eget. Nibh tortor id aliquet lectus.Quam lacus suspendisse faucibus
+                    interdum posuere
+                    lorem ipsum dolor. Nec ultrices dui sapien eget mi. Mi eget mauris pharetra et ultrices neque ornare.
+                    Ullamcorper
+                    sit amet risus nullam eget felis. Pharetra massa massa ultricies mi quis. Urna et pharetra pharetra
+                    massa
                     massa ultricies mi. Sed tempus urna et pharetra pharetra. Enim neque volutpat ac tincidunt vitae semper
-                    quis lectus nulla. Morbi tristique senectus et netus et malesuada fames ac. Purus non enim praesent elementum
+                    quis lectus nulla. Morbi tristique senectus et netus et malesuada fames ac. Purus non enim praesent
+                    elementum
                     facilisis. Aliquam vestibulum morbi blandit cursus. Cras ornare arcu dui vivamus arcu felis bibendum ut.
-                    Consectetur a erat nam at lectus. Volutpat commodo sed egestas egestas. Et tortor at risus viverra adipiscing at.
-                    Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Bibendum neque egestas congue quisque egestas
-                    diam in arcu. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Dignissim
+                    Consectetur a erat nam at lectus. Volutpat commodo sed egestas egestas. Et tortor at risus viverra
+                    adipiscing at.
+                    Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Bibendum neque egestas congue quisque
+                    egestas
+                    diam in arcu. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.
+                    Dignissim
                     diam quis enim lobortis scelerisque fermentum dui faucibus. Convallis a cras semper auctor neque.
                 </p>
             </div>
@@ -66,14 +77,16 @@
             <p class="slide-three__subtitle">brend<span class="slide-three__subtitle_bold">xy</span></p>
             <div class="slide-three__windows">
                 <div class="slide-three__window slide-three__window_size_m">
-                    <img class="slide-three__window-icon slide-three__window-icon_type_plates" src="<%=require('./images/slide-three/icon-plates.png')%>" alt="иконка">
+                    <img class="slide-three__window-icon slide-three__window-icon_type_plates"
+                         src="<%=require('./images/slide-three/icon-plates.png')%>" alt="иконка">
                     <p class="slide-three__text">
                         Enim tortor at auctor urna. Nisl rhoncus mattis
                         rhoncus urna neque viverra justo
                     </p>
                 </div>
                 <div class="slide-three__window slide-three__window_size_s">
-                    <img class="slide-three__window-icon slide-three__window-icon_type_calendar" src="<%=require('./images/slide-three/icon-calendar.png')%>" alt="иконка">
+                    <img class="slide-three__window-icon slide-three__window-icon_type_calendar"
+                         src="<%=require('./images/slide-three/icon-calendar.png')%>" alt="иконка">
                     <p class="slide-three__text">
                         Enim tortor at auctor urna
                     </p>
@@ -96,6 +109,63 @@
     <footer class="footer">
         <img class="footer__logo" src="<%=require('./images/logo.png')%>" alt="onpoint">
     </footer>
+
+    <div class="popup">
+        <div class="popup__content">
+            <button class="popup__close" type="button"></button>
+            <h2 class="popup__title">преимущества</h2>
+            <p class="popup__subtitle">brend<span class="popup__subtitle_bold">xy</span></p>
+            <div class="popup__description">
+                <ul class="popup__point-list">
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">01</p>
+                        <p class="popup__point-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </p>
+                    </li>
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">02</p>
+                        <p class="popup__point-description">
+                            Faucibus pulvinar elementum integer enim
+                        </p>
+                    </li>
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">03</p>
+                        <p class="popup__point-description">
+                            Faucibus pulvinar elementum integer enim
+                        </p>
+                    </li>
+                </ul>
+
+                <ul class="popup__point-list popup__point-list_inactive">
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">04</p>
+                        <p class="popup__point-description">
+                            Mi bibendum neque egestas congue quisque  egestas diam
+                        </p>
+                    </li>
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">05</p>
+                        <p class="popup__point-description">
+                            Venenatis lectus magna fringilla urna
+                        </p>
+                    </li>
+                    <li class="popup__point-item">
+                        <p class="popup__point-number">06</p>
+                        <p class="popup__point-description">
+                            Venenatis lectus magna fringilla urna
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="popup__page-panel">
+                <button class="popup__arrow popup__arrow_left" type="button"></button>
+                <div class="popup__dot popup__dot_left"></div>
+                <div class="popup__dot popup__dot_right popup__dot_inactive"></div>
+                <button class="popup__arrow popup__arrow_right" type="button"></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 

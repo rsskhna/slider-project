@@ -1,9 +1,11 @@
 @import url('vendor/normalize.css');
 @import url('vendor/fonts.css');
-@import url('slides/root.css');
+@import url('components/root.css');
 
-@import url('slides/content.css');
+@import url('components/content.css');
 
-@import url('slides/slide-one.css');
-@import url('slides/slide-two.css');
-@import url('slides/slide-three.css');
+@import url('components/slide-one.css');
+@import url('components/slide-two.css');
+@import url('components/slide-three.css');
+
+@import url('components/popup.css');
