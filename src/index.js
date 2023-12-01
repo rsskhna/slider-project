@@ -18,7 +18,7 @@ buttonMore.addEventListener('click', function () {
 
     leftDot.classList.remove('popup__dot_inactive');
     rightDot.classList.add('popup__dot_inactive');
-    
+
     openModal(popup);
 });
 
