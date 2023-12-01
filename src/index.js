@@ -1,10 +1,12 @@
 import './index.css';
 import {openModal, closeModal} from "./scripts/modal";
+import {animateSperm} from "./scripts/spermAnimation";
 
 const popup = document.querySelector('.popup');
 const buttonMore = document.querySelector('.slide-three__button');
 const dots = document.querySelectorAll('.popup__dot');
 const pointLists = document.querySelectorAll('.popup__point-list');
+const spermList = document.querySelectorAll('.slide-two__sperm-img');
 
 buttonMore.addEventListener('click', function () {
     openModal(popup);
@@ -24,3 +26,11 @@ popup.addEventListener('click', function (evt) {
         });
     }
 })
+
+spermList.forEach((sperm) => {
+    animateSperm(sperm);
+})
+
+
+
+
