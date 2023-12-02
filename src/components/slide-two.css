@@ -43,6 +43,7 @@
     -webkit-appearance: none;
 
     transform: rotate(90deg);
+    touch-action: none;
 }
 
 .slide-two__scrollbar::-webkit-slider-runnable-track {

@@ -10,7 +10,7 @@ const rightDot = document.querySelector('.popup__dot_right');
 const pointLists = document.querySelectorAll('.popup__point-list');
 const firstList = document.querySelector('.popup__point-list_first');
 const secondList = document.querySelector('.popup__point-list_second');
-const spermList = document.querySelectorAll('.slide-two__sperm-img');
+const sperms = document.querySelectorAll('.slide-two__sperm-img');
 
 buttonMore.addEventListener('click', function () {
     firstList.classList.remove('popup__point-list_inactive');
@@ -32,18 +32,13 @@ popup.addEventListener('click', function (evt) {
             dot.classList.toggle('popup__dot_inactive');
         });
         pointLists.forEach((list) => {
-           list.classList.toggle('popup__point-list_inactive');
+            list.classList.toggle('popup__point-list_inactive');
         });
     }
 })
 
-spermList.forEach((sperm) => {
+sperms.forEach((sperm) => {
     animateSperm(sperm);
 })
-
-
-
-
-
 
 

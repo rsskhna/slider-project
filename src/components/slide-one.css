@@ -65,7 +65,7 @@
     z-index: 3;
 }
 
-.slide-one__bakti1-img {
+.slide-one__bacteria1-img {
     width: 100%;
     max-width: 75px;
     min-height: 70px;
@@ -75,10 +75,10 @@
     left: 24px;
     z-index: 1;
 
-    animation: 20s linear infinite bakti1-move;
+    animation: 20s linear infinite bacteria1-move;
 }
 
-.slide-one__bakti2-img {
+.slide-one__bacteria2-img {
     width: 100%;
     max-width: 64px;
     min-height: 55px;
@@ -87,7 +87,7 @@
     top: 60px;
     right: 215px;
 
-    animation: 20s linear infinite bakti2-move;
+    animation: 20s linear infinite bacteria2-move;
 }
 
 .slide-one__spike1-img {
@@ -115,7 +115,7 @@
     animation: 10s linear infinite spike2-move;
 }
 
-@keyframes bakti1-move {
+@keyframes bacteria1-move {
     0% {
         top: 506px;
         left: 24px;
@@ -130,7 +130,7 @@
     }
 }
 
-@keyframes bakti2-move {
+@keyframes bacteria2-move {
     0% {
         top: 60px;
         right: 215px;
