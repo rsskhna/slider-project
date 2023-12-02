@@ -11,6 +11,8 @@ const pointLists = document.querySelectorAll('.popup__point-list');
 const firstList = document.querySelector('.popup__point-list_first');
 const secondList = document.querySelector('.popup__point-list_second');
 const sperms = document.querySelectorAll('.slide-two__sperm-img');
+const textElem = document.querySelector('.slide-two__text');
+const scrollbar = document.querySelector('.slide-two__scrollbar');
 
 buttonMore.addEventListener('click', function () {
     firstList.classList.remove('popup__point-list_inactive');
@@ -40,5 +42,13 @@ popup.addEventListener('click', function (evt) {
 sperms.forEach((sperm) => {
     animateSperm(sperm);
 })
+
+scrollbar.max = textElem.offsetHeight;
+textElem.addEventListener("scroll", () => {
+    scrollbar.value = textElem.scrollTop;
+});
+scrollbar.addEventListener("input", () => {
+    textElem.scrollTop = scrollbar.value;
+});
 
 
