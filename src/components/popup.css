@@ -106,14 +106,14 @@
 
     list-style-type: none;
 
-    transition: visibility 0.5s, opacity 0.5s;
+    transition: visibility 0.3s, opacity 0.3s;
 }
 
 .popup__point-list_inactive {
     visibility: hidden;
     opacity: 0;
 
-    transition: visibility 0.5s, opacity 0.5s;
+    transition: visibility 0.3s, opacity 0.3s;
 }
 
 .popup__point-item {
@@ -185,7 +185,7 @@
 
     margin-inline-end: 10px;
 
-    transition: border 0.4s, background-color 0.4s;
+    transition: border 0.3s, background-color 0.3s;
 }
 
 .popup__dot:last-of-type {

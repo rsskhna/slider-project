@@ -1,6 +1,7 @@
 import './index.css';
 import {openModal, closeModal} from "./scripts/modal";
 import {animateSperm} from "./scripts/spermAnimation";
+import {resetPositions} from "./scripts/resetPositions";
 
 const popup = document.querySelector('.popup');
 
@@ -51,6 +52,8 @@ animateSperm(spermTwoImg, 'slide-two__sperm-2-animation');
 animateSperm(spermThreeImg, 'slide-two__sperm-3-animation');
 animateSperm(spermFourImg, 'slide-two__sperm-4-5-animation');
 animateSperm(spermFiveImg, 'slide-two__sperm-4-5-animation');
+
+resetPositions(scrollbar, textElem);
 
 scrollbar.max = textElem.offsetHeight;
 textElem.addEventListener("scroll", () => {
