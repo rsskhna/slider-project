@@ -167,18 +167,45 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .slide-two__sperm-animation {
+    .slide-two__sperm-4-5-animation {
         visibility: visible;
         opacity: 1;
         animation: 1.5s ease-in sperm-move;
     }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .slide-two__sperm-2-animation {
+        visibility: visible;
+        opacity: 1;
+        animation: 1.5s ease-in sperm-move 0.4s;
+        transition-delay: 0.5s;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .slide-two__sperm-3-animation {
+        visibility: visible;
+        opacity: 1;
+        animation: 1.5s ease-in sperm-move 0.6s;
+        transition-delay: 0.6s;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .slide-two__sperm-1-animation {
+        visibility: visible;
+        opacity: 1;
+        animation: 1.5s ease-in sperm-move 0.9s;
+        transition-delay: 0.9s;
+    }
+}
+
 @keyframes sperm-move {
-    from {
+    0% {
         transform: translate(50px, 20px);
     }
-    to{
+    100%{
         transform: translate(0);
     }
 }

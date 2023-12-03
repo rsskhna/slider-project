@@ -1,13 +1,13 @@
 export {animateSperm}
 
-function animateSperm(sperm) {
+function animateSperm(spermImg, className) {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                sperm.classList.add('slide-two__sperm-animation');
+                spermImg.classList.add(className);
                 return;
             }
-            sperm.classList.remove('slide-two__sperm-animation');
+            spermImg.classList.remove(className);
         });
     });
     observer.observe(document.querySelector('.slide-two__sperm-img'));
