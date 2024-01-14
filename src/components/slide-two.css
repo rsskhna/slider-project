@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 190px;
 
-    font-family: 'dinpro_light', Arial, sans-serif;
+    font-family: 'Montserrat-Light', Arial, sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 1.1;
@@ -95,9 +95,9 @@
     width: 100%;
     max-width: 714px;
 
-    font-family: 'dinpro', Arial, sans-serif;
-    font-size: 24px;
-    line-height: 1.25;
+    font-family: 'Montserrat-Regular', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.3;
 
     overflow-y: scroll;
 }
@@ -107,18 +107,19 @@
 }
 
 .slide-two__text_bold {
-    font-family: 'dinpro_bold', Arial, sans-serif;
+    font-family: 'Montserrat-ExtraBold', Arial, sans-serif;
+    color: #587B7F;
 }
 
-.slide-two__sperm-img {
+.slide-two__daisy-img {
     opacity: 0;
     visibility: hidden;
     transition: visibility 1.5s ease-in, opacity 1.5s ease-in;
 }
 
-.slide-two__sperm1-img {
+.slide-two__daisy1-img {
     width: 100%;
-    max-width: 245px;
+    max-width: 270px;
 
     position: absolute;
     bottom: 134px;
@@ -126,82 +127,53 @@
     z-index: 1;
 }
 
-.slide-two__sperm2-img {
+.slide-two__daisy2-img {
     width: 100%;
     max-width: 314px;
 
     position: absolute;
     top: 75px;
-    right: 0;
+    right: -75px;
     z-index: 1;
 }
 
-.slide-two__sperm3-img {
+.slide-two__daisy3-img {
     width: 100%;
-    max-width: 463px;
+    max-width: 420px;
 
     position: absolute;
-    bottom: 154px;
-    right: -331px;
-    z-index: 1;
-}
-
-.slide-two__sperm4-img {
-    width: 100%;
-    max-width: 656px;
-
-    position: absolute;
-    top: 101px;
-    right: 0;
-    z-index: 1;
-}
-
-.slide-two__sperm5-img {
-    width: 100%;
-    max-width: 440px;
-
-    position: absolute;
-    top: 98px;
-    right: 0;
+    top: -110px;
+    right: 185px;
     z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .slide-two__sperm-4-5-animation {
+    .slide-two__daisy-3-animation {
         visibility: visible;
         opacity: 1;
-        animation: 1.5s ease-in sperm-move;
+        animation: 1.5s ease-in daisy-move;
     }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .slide-two__sperm-2-animation {
+    .slide-two__daisy-2-animation {
         visibility: visible;
         opacity: 1;
-        animation: 1.5s ease-in sperm-move 0.4s;
+        animation: 1.5s ease-in daisy-move 0.4s;
         transition-delay: 0.5s;
     }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .slide-two__sperm-3-animation {
+    .slide-two__daisy-1-animation {
         visibility: visible;
         opacity: 1;
-        animation: 1.5s ease-in sperm-move 0.6s;
-        transition-delay: 0.6s;
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .slide-two__sperm-1-animation {
-        visibility: visible;
-        opacity: 1;
-        animation: 1.5s ease-in sperm-move 0.9s;
+        animation: 1.5s ease-in daisy-move 0.9s;
         transition-delay: 0.9s;
     }
 }
 
-@keyframes sperm-move {
+@keyframes daisy-move {
     0% {
         transform: translate(50px, 20px);
     }

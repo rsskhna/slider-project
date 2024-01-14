@@ -62,7 +62,7 @@
     width: 100%;
     max-width: 348px;
 
-    font-family: 'dinpro_light', Arial, sans-serif;
+    font-family: 'Montserrat-Light', Arial, sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 2.2px;
@@ -74,7 +74,7 @@
     width: 100%;
     max-width: max-content;
 
-    font-family: 'Gilroy-Regular', Arial, sans-serif;
+    font-family: 'Montserrat-Regular', Arial, sans-serif;
     font-size: 96px;
     text-transform: uppercase;
     letter-spacing: 9px;
@@ -83,7 +83,8 @@
 }
 
 .popup__subtitle_bold {
-    font-family: 'Gilroy-ExtraBold', Arial, sans-serif;
+    font-family: 'Montserrat-ExtraBold', Arial, sans-serif;
+    color: #587B7F;
 }
 
 .popup__description {
@@ -128,9 +129,9 @@
     width: 100%;
     max-width: max-content;
 
-    font-family: 'Gilroy-ExtraBold', Arial, sans-serif;
+    font-family: 'Montserrat-ExtraBold', Arial, sans-serif;
     font-size: 24px;
-    color: #8cc9e8;
+    color: #587B7F;
 
     margin-block-end: 7px;
 }
@@ -138,8 +139,8 @@
 .popup__point-description {
     width: 100%;
 
-    font-family: 'dinpro_light', Arial, sans-serif;
-    font-size: 23px;
+    font-family: 'Montserrat-Light', Arial, sans-serif;
+    font-size: 21px;
     letter-spacing: 1px;
     line-height: 1.2;
 }
@@ -179,9 +180,9 @@
     width: 11px;
     height: 11px;
 
-    background-color: #fc6da9;
+    background-color: #587B7F;
     border-radius: 50%;
-    border: 1px solid #fc6da9;
+    border: 1px solid #587B7F;
 
     margin-inline-end: 10px;
 

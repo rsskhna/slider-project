@@ -19,16 +19,16 @@
     min-height: 688px;
 
     position: absolute;
-    bottom: 0;
+    bottom: -55px;
     left: 50px;
     z-index: 9;
 }
 
 .slide-three__title {
     width: 100%;
-    max-width: 348px;
+    max-width: 394px;
 
-    font-family: 'dinpro_light', Arial, sans-serif;
+    font-family: 'Montserrat-Light', Arial, sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 2.2px;
@@ -41,7 +41,7 @@
     width: 100%;
     max-width: max-content;
 
-    font-family: 'Gilroy-Regular', Arial, sans-serif;
+    font-family: 'Montserrat-Regular', Arial, sans-serif;
     font-size: 96px;
     text-transform: uppercase;
     letter-spacing: 9px;
@@ -51,7 +51,8 @@
 }
 
 .slide-three__subtitle_bold {
-    font-family: 'Gilroy-ExtraBold', Arial, sans-serif;
+    font-family: 'Montserrat-ExtraBold', Arial, sans-serif;
+    color: #587B7F;
 }
 
 .slide-three__windows {
@@ -96,26 +97,26 @@
 
 .slide-three__window-icon {
     width: 100%;
-    max-width: 69px;
+    max-width: 58px;
 
     position: absolute;
 }
 
-.slide-three__window-icon_type_plates {
-    top: -31px;
-    right: 222px;
+.slide-three__window-icon_type_question {
+    top: -22px;
+    right: 232px;
 }
 
-.slide-three__window-icon_type_calendar {
+.slide-three__window-icon_type_check-mark {
     top: -22px;
-    right: 153px;
+    right: 162px;
 }
 
 .slide-three__text {
     width: 100%;
     max-width: 236px;
 
-    font-family: 'dinpro_light', Arial, sans-serif;
+    font-family: 'Montserrat-Light', Arial, sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 1.2;
@@ -137,21 +138,21 @@
     width: 100%;
 }
 
-.slide-two__bbl-bg-1-img {
+.slide-three__bbl-bg-1-img {
     width: 100%;
-    max-width: 36px;
+    max-width: 120px;
 
     position: absolute;
     top: 214px;
-    left: 77px;
+    left: 10px;
     z-index: 5;
 
     animation: 8s linear infinite bbl-bg-1-move;
 }
 
-.slide-two__bbl-bg-2-img {
+.slide-three__bbl-bg-2-img {
     width: 100%;
-    max-width: 112px;
+    max-width: 150px;
 
     position: absolute;
     top: 318px;
@@ -161,9 +162,9 @@
     animation: 10s linear infinite bbl-bg-2-move;
 }
 
-.slide-two__bbl-bg-3-img {
+.slide-three__bbl-bg-3-img {
     width: 100%;
-    max-width: 39px;
+    max-width: 55px;
 
     position: absolute;
     top: 67px;
@@ -173,9 +174,9 @@
     animation: 8s linear infinite bbl-bg-3-move;
 }
 
-.slide-two__bbl-bg-4-img {
+.slide-three__bbl-bg-4-img {
     width: 100%;
-    max-width: 56px;
+    max-width: 80px;
 
     position: absolute;
     bottom: 119px;
@@ -185,9 +186,9 @@
     animation: 20s linear infinite bbl-bg-4-move;
 }
 
-.slide-two__bbl-fr-1-img {
+.slide-three__bbl-fr-1-img {
     width: 100%;
-    max-width: 33px;
+    max-width: 65px;
 
     position: absolute;
     top: 455px;
@@ -197,21 +198,21 @@
     animation: 10s linear infinite bbl-fr-1-move;
 }
 
-.slide-two__bbl-fr-2-img {
+.slide-three__bbl-fr-2-img {
     width: 100%;
-    max-width: 138px;
+    max-width: 150px;
 
     position: absolute;
-    bottom: -70px;
+    bottom: -20px;
     left: 186px;
     z-index: 10;
 
     animation: 10s linear infinite bbl-fr-2-move;
 }
 
-.slide-two__bbl-fr-3-img {
+.slide-three__bbl-fr-3-img {
     width: 100%;
-    max-width: 70px;
+    max-width: 100px;
 
     position: absolute;
     top: 156px;
@@ -221,7 +222,7 @@
     animation: 8s linear infinite bbl-fr-3-move;
 }
 
-.slide-two__bbl-fr-4-img {
+.slide-three__bbl-fr-4-img {
     width: 100%;
     max-width: 74px;
 
@@ -235,22 +236,22 @@
 
 @keyframes bbl-bg-1-move {
     0% {
-        left: 77px;
+        left: 10px;
         top: 214px;
     }
     50% {
-        left: 120px;
+        left: 80px;
         top: 220px;
     }
     100% {
-        left: 77px;
+        left: 10px;
         top: 214px;
     }
 }
 
 @keyframes bbl-bg-2-move {
     0% {
-        max-width: 112px;
+        max-width: 150px;
         top: 318px;
         left: 197px;
     }
@@ -259,7 +260,7 @@
         left: 215px;
     }
     50% {
-        max-width: 150px;
+        max-width: 200px;
         top: 305px;
         left: 175px;
     }
@@ -269,7 +270,7 @@
         left: 165px;
     }
     100% {
-        max-width: 112px;
+        max-width: 150px;
         top: 318px;
         left: 197px;
     }
@@ -342,18 +343,18 @@
 
 @keyframes bbl-fr-2-move {
     0% {
-        max-width: 138px;
-        bottom: -70px;
+        max-width: 150px;
+        bottom: -20px;
         left: 186px;
     }
     50% {
         max-width: 100px;
-        bottom: -80px;
+        bottom: -50px;
         left: 240px;
     }
     100% {
-        max-width: 138px;
-        bottom: -70px;
+        max-width: 150px;
+        bottom: -20px;
         left: 186px;
     }
 }

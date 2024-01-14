@@ -1,6 +1,6 @@
 import './index.css';
 import {openModal, closeModal} from "./scripts/modal";
-import {animateSperm} from "./scripts/spermAnimation";
+import {animateDaisy} from "./scripts/daisyAnimation";
 
 const popup = document.querySelector('.popup');
 
@@ -12,11 +12,9 @@ const pointLists = document.querySelectorAll('.popup__point-list');
 const firstList = document.querySelector('.popup__point-list_first');
 const secondList = document.querySelector('.popup__point-list_second');
 
-const spermOneImg = document.querySelector('.slide-two__sperm1-img');
-const spermTwoImg = document.querySelector('.slide-two__sperm2-img');
-const spermThreeImg = document.querySelector('.slide-two__sperm3-img');
-const spermFourImg = document.querySelector('.slide-two__sperm4-img');
-const spermFiveImg = document.querySelector('.slide-two__sperm5-img');
+const daisyOneImg = document.querySelector('.slide-two__daisy1-img');
+const daisyTwoImg = document.querySelector('.slide-two__daisy2-img');
+const daisyThreeImg = document.querySelector('.slide-two__daisy3-img');
 
 const textElem = document.querySelector('.slide-two__text');
 const scrollbar = document.querySelector('.slide-two__scrollbar');
@@ -46,11 +44,9 @@ popup.addEventListener('click', function (evt) {
     }
 })
 
-animateSperm(spermOneImg, 'slide-two__sperm-1-animation');
-animateSperm(spermTwoImg, 'slide-two__sperm-2-animation');
-animateSperm(spermThreeImg, 'slide-two__sperm-3-animation');
-animateSperm(spermFourImg, 'slide-two__sperm-4-5-animation');
-animateSperm(spermFiveImg, 'slide-two__sperm-4-5-animation');
+animateDaisy(daisyOneImg, 'slide-two__daisy-1-animation');
+animateDaisy(daisyTwoImg, 'slide-two__daisy-2-animation');
+animateDaisy(daisyThreeImg, 'slide-two__daisy-3-animation');
 
 scrollbar.max = textElem.offsetHeight;
 textElem.addEventListener("scroll", () => {

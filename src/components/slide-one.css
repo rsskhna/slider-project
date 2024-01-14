@@ -26,16 +26,17 @@
 .slide-one__title {
     width: 100%;
 
-    font-size: 115px;
+    font-size: 100px;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 1.15;
     letter-spacing: 2px;
 
     z-index: 2;
 }
 
 .slide-one__title_bold {
-    font-family: 'Gilroy-ExtraBold', Arial, sans-serif;
+    font-family: 'Montserrat-ExtraBold', Arial, sans-serif;
+    color: #587B7F;
 }
 
 .slide-one__button {
@@ -54,20 +55,21 @@
     width: 100%;
 }
 
-.slide-one__sperm-img {
+.slide-one__daisy3-img {
     width: 100%;
-    max-width: 584px;
-    min-height: 95px;
+    max-width: 170px;
 
     position: absolute;
-    top: 153px;
-    left: 432px;
+    top: 120px;
+    left: 410px;
     z-index: 3;
+
+    animation: 50s linear infinite daisy-slide-one-move;
 }
 
-.slide-one__bacteria1-img {
+.slide-one__bubble1-img {
     width: 100%;
-    max-width: 75px;
+    max-width: 90px;
     min-height: 70px;
 
     position: absolute;
@@ -75,47 +77,58 @@
     left: 24px;
     z-index: 1;
 
-    animation: 20s linear infinite bacteria1-move;
+    animation: 20s linear infinite bubble1-move;
 }
 
-.slide-one__bacteria2-img {
+.slide-one__bubble2-img {
     width: 100%;
-    max-width: 64px;
+    max-width: 80px;
     min-height: 55px;
 
     position: absolute;
     top: 60px;
     right: 215px;
 
-    animation: 20s linear infinite bacteria2-move;
+    animation: 20s linear infinite bubble2-move;
 }
 
-.slide-one__spike1-img {
+.slide-one__bubble3-img {
     width: 100%;
-    max-width: 108px;
-    min-height: 113px;
+    max-width: 130px;
 
     position: absolute;
     top: 202px;
     right: 53px;
     z-index: 4;
 
-    animation: 35s linear infinite spike1-move;
+    animation: 35s linear infinite bubble3-move;
 }
 
-.slide-one__spike2-img {
+.slide-one__bubble4-img {
     width: 100%;
-    max-width: 227px;
+    max-width: 280px;
     min-height: 126px;
 
     position: absolute;
     bottom: -96px;
     right: 256px;
 
-    animation: 10s linear infinite spike2-move;
+    animation: 10s linear infinite bubble4-move;
 }
 
-@keyframes bacteria1-move {
+@keyframes daisy-slide-one-move {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bubble1-move {
     0% {
         top: 506px;
         left: 24px;
@@ -130,25 +143,25 @@
     }
 }
 
-@keyframes bacteria2-move {
+@keyframes bubble2-move {
     0% {
         top: 60px;
         right: 215px;
-        max-width: 64px;
+        max-width: 80px;
     }
     50% {
         top: 90px;
         right: 185px;
-        max-width: 57px;
+        max-width: 65px;
     }
     100% {
         top: 60px;
         right: 215px;
-        max-width: 64px;
+        max-width: 80px;
     }
 }
 
-@keyframes spike1-move {
+@keyframes bubble3-move {
     0% {
         top: 202px;
         right: 53px;
@@ -173,11 +186,11 @@
     }
 }
 
-@keyframes spike2-move {
+@keyframes bubble4-move {
     0% {
         bottom: -96px;
         right: 256px;
-        max-width: 227px;
+        max-width: 280px;
     }
     33% {
         max-width: 240px;
@@ -185,11 +198,11 @@
     66% {
         bottom: -55px;
         right: 320px;
-        max-width: 200px;
+        max-width: 250px;
     }
     100% {
         bottom: -96px;
         right: 256px;
-        max-width: 227px;
+        max-width: 280px;
     }
 }
